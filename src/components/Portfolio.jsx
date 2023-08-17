@@ -1,5 +1,6 @@
 import React from 'react'
 import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
+import todolist from '../assets/portfolio/todolist.png'
 
 
 const Portfolio = () => {
@@ -7,28 +8,28 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct
+            src: todolist
         },
-        {
-            id: 1,
-            src: arrayDestruct
-        },
-        {
-            id: 1,
-            src: arrayDestruct
-        },
-        {
-            id: 1,
-            src: arrayDestruct
-        },
-        {
-            id: 1,
-            src: arrayDestruct
-        },
-        {
-            id: 1,
-            src: arrayDestruct
-        },
+        // {
+        //     id: 1,
+        //     src: arrayDestruct
+        // },
+        // {
+        //     id: 1,
+        //     src: arrayDestruct
+        // },
+        // {
+        //     id: 1,
+        //     src: arrayDestruct
+        // },
+        // {
+        //     id: 1,
+        //     src: arrayDestruct
+        // },
+        // {
+        //     id: 1,
+        //     src: arrayDestruct
+        // },
     ]
 
     return (
