@@ -11,7 +11,7 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a computer science undergrad</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+                I'm a lifelong learner who loves to take on challenges and make a difference. I'm always looking for new opportunities to grow and improve, and I'm excited to see what the future holds.
                 </p>
 
                 <div>
