@@ -9,10 +9,11 @@ const About = () => {
                 </div>
 
                 <p className='text-xl mt-20'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates architecto eveniet saepe, inventore laborum sapiente ex tempora nisi! Perferendis recusandae sit nemo esse totam aliquid omnis, distinctio cupiditate expedita. Maxime.
+                Hi, I'm Seshaev Sahoo, a fourth-year BTech student at the Silicon Institute of Technology, Bhubaneswar. I'm passionate about using technology to solve problems and make a positive impact on the world. I'm Familiar in web development technologies: HTML, CSS, JavaScript, Node.js, Express, and MongoDB.. I'm also interested in artificial intelligence, machine learning, and data science. I'm excited to be a part of the AI revolution and to use my skills to make a difference in the world.
                 </p>
                 <br />
-                <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ea repudiandae ducimus commodi consectetur magnam laboriosam nemo quas adipisci aspernatur, sit odit delectus earum labore ratione dignissimos, asperiores quisquam facilis, neque doloremque vel magni corporis doloribus! Mollitia, odio ex minima asperiores enim quos tenetur error necessitatibus nesciunt, cum hic optio!</p>
+                <p className='text-xl'>I did my Class 12th from DPS Kalinga with 78% and my class 10th from the same school with 9.4 cgpa. Some of my hobbies are like football, martial arts and i also have an interest in world politics so i watch some geopolitics videos time to time on youtube.
+I am excited to use my skills to make a difference in the world. I am currently looking for opportunities to collaborate with others on projects that use technology to solve problems. If you are interested in working with me, please contact me by filling the form below.</p>
             </div>
         </div>
     )
