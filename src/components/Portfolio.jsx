@@ -1,6 +1,7 @@
 import React from 'react'
-// import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import todolist from '../assets/portfolio/todolist.png'
+import Heart_ml from '../assets/portfolio/Machine-Learning-Project-on-Heart-Disease-Prediction.webp'
+import todolist from '../assets/portfolio/to-do-list.jpeg'
+import sentimentAnalysis from '../assets/portfolio/sent_analysis.png'
 
 
 const Portfolio = () => {
@@ -12,14 +13,18 @@ const Portfolio = () => {
             demo_link: 'https://real-tan-hippo-cap.cyclic.app/',
             code_link: 'https://github.com/Cypher450/To-Do-List'
         },
-        // {
-        //     id: 1,
-        //     src: arrayDestruct
-        // },
-        // {
-        //     id: 1,
-        //     src: arrayDestruct
-        // },
+        {
+            id: 2,
+            src: Heart_ml,
+            demo_link: 'https://colab.research.google.com/drive/1d91ZntK8GiUFwK1Gnxl1HaL9GdqBTFMb?usp=sharing',
+            code_link: 'https://colab.research.google.com/drive/1d91ZntK8GiUFwK1Gnxl1HaL9GdqBTFMb?usp=sharing'
+        },
+        {
+            id: 3,
+            src: sentimentAnalysis,
+            demo_link: 'https://colab.research.google.com/drive/1iV7FLgz5Ths4k1jvxm25ZyKHmMSdCVwA?usp=sharing',
+            code_link: 'https://colab.research.google.com/drive/1iV7FLgz5Ths4k1jvxm25ZyKHmMSdCVwA?usp=sharing'
+        },
         // {
         //     id: 1,
         //     src: arrayDestruct
