@@ -9,7 +9,8 @@ const Portfolio = () => {
         {
             id: 1,
             src: todolist,
-            link: 'https://real-tan-hippo-cap.cyclic.app/'
+            demo_link: 'https://real-tan-hippo-cap.cyclic.app/',
+            code_link: 'https://github.com/Cypher450/To-Do-List'
         },
         // {
         //     id: 1,
@@ -44,12 +45,12 @@ const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                 {
-                    portfolios.map(({ id, src, link }) => (
+                    portfolios.map(({ id, src, demo_link, code_link }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
-                                    <a href={link}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Demo</button></a>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                    <a href={demo_link}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Demo</button></a>
+                                    <a href={code_link}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Code</button></a>
                                 </div>
                             </div>
                      ))
